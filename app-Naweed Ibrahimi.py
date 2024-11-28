@@ -5,7 +5,7 @@ from datetime import datetime
 from flask import Flask, render_template, jsonify, request
 import requests
 
-api_key = '2L85V79WS6K0WR64'  # Replace with your Alpha Vantage API key
+api_key = 'enter your api here'  # Replace with your Alpha Vantage API key
 
 
 def fetch_stock_data(symbol):
